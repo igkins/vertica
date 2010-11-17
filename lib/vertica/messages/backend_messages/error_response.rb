@@ -1,7 +1,7 @@
 module Vertica
   module Messages
     class ErrorResponse < BackendMessage
-      message_id ?E
+      message_id 0x45 #?E
 
       ERRORS = {
         ?q => [0, "Internal Query"],

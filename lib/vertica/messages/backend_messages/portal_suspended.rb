@@ -1,7 +1,7 @@
 module Vertica
   module Messages
     class PortalSuspended < BackendMessage
-      message_id ?s
+      message_id 0x73 #?s
     end
   end
 end

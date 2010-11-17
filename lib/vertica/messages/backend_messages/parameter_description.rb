@@ -1,7 +1,7 @@
 module Vertica
   module Messages
     class ParameterDescription < BackendMessage
-      message_id ?t
+      message_id 0x74 #?t
 
       attr_reader :parameter_count
       attr_reader :parameter_types

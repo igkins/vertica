@@ -1,7 +1,7 @@
 module Vertica
   module Messages
     class Authentication < BackendMessage
-      message_id ?R
+      message_id 0x52 #?R
 
       OK                  = 0
       KERBEROS_V5         = 2

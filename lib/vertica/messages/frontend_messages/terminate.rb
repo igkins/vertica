@@ -1,7 +1,7 @@
 module Vertica
   module Messages
     class Terminate < FrontendMessage
-      message_id ?X
+      message_id 0x58 #?X
     end
   end
 end

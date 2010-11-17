@@ -1,7 +1,7 @@
 module Vertica
   module Messages
     class Describe < FrontendMessage
-      message_id ?D
+      message_id 0x44 #?D
 
       def initialize(describe_type, describe_name)
         @describe_name = describe_name

@@ -22,7 +22,7 @@ module Vertica
         if klass = MessageIdMap[type]
           klass.new stream, size
         else
-          Messages::Unknown.new type
+          Messages::Unknown.new type, size
         end
       end
 

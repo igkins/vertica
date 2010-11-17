@@ -1,7 +1,7 @@
 module Vertica
   module Messages
     class Close < FrontendMessage
-      message_id ?C
+      message_id 0x43 #?C
 
       def initialize(close_type, close_name)
         @close_name = close_name

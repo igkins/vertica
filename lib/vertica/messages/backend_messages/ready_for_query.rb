@@ -1,7 +1,7 @@
 module Vertica
   module Messages
     class ReadyForQuery < BackendMessage
-      message_id ?Z
+      message_id 0x5a #?Z
 
       attr_reader :transaction_status
 
